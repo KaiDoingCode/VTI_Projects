@@ -1,4 +1,7 @@
 package interfaces;
 
-public class Fighter {
+public interface Fighter {
+    void attack();
+    boolean isExhausted();
+    String getName();
 }

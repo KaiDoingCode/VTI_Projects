@@ -1,4 +1,7 @@
 package behaviors;
 
-public class Shooter {
+import entities.*;
+
+public interface Shooter {
+    void shoot(Zombie target);
 }

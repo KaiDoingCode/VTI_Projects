@@ -1,4 +1,6 @@
 package behaviors;
 
-public class Mover {
+public interface Mover {
+    void move();
 }
+

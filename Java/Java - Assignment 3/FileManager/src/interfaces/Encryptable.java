@@ -1,4 +1,5 @@
 package interfaces;
 
-public class Encryptable {
+public interface Encryptable {
+    void encrypt();
 }

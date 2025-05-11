@@ -1,4 +1,5 @@
 package interfaces;
 
-public class Compressible {
+public interface Compressible {
+    void compress();
 }
