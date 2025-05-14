@@ -1,0 +1,6 @@
+2025-05-14 10:00:01 INFO Server started successfully
+2025-05-14 10:00:02 ERROR Database connection failed
+2025-05-14 10:00:03 WARN Low memory warning
+2025-05-14 10:00:04 INFO User admin logged in
+2025-05-14 10:00:05 ERROR Unable to reach server
+2025-05-14 10:00:06 INFO Server shutdown initiated

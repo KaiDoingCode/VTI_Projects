@@ -1,0 +1,8 @@
+Log Statistics Report
+=====================
+INFO count: 3
+ERROR count: 2
+WARN count: 2
+
+Average time between INFO events: 302 seconds
+Average time between ERROR events: 444 seconds

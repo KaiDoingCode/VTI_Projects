@@ -1,0 +1,7 @@
+2025-05-14 10:00:01 INFO Server started
+2025-05-14 10:03:15 INFO User login
+2025-05-14 10:05:21 ERROR Database failure
+2025-05-14 10:07:03 WARN Low memory
+2025-05-14 10:10:05 INFO Cache cleared
+2025-05-14 10:12:45 ERROR Disk full
+2025-05-14 10:15:00 WARN CPU spike
