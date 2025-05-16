@@ -1,4 +1,8 @@
 package gui.domain;
 
-public class GUIFactory {
+public interface GUIFactory {
+    Button createButton();
+    Checkbox createCheckbox();
+    Menu createMenu();
+    Scrollbar createScrollbar();
 }

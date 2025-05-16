@@ -1,4 +1,5 @@
 package gui.domain;
 
-public class Button {
+public interface Button {
+    void paint();
 }

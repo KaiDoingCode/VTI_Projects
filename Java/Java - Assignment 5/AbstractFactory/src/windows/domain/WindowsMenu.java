@@ -1,4 +1,10 @@
 package windows.domain;
 
-public class WindowsMenu {
+import gui.domain.Menu;
+
+public class WindowsMenu implements Menu {
+    @Override
+    public void open() {
+        System.out.println("Opening Windows Menu");
+    }
 }

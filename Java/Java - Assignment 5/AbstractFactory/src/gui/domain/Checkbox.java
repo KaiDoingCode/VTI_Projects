@@ -1,4 +1,5 @@
 package gui.domain;
 
-public class Checkbox {
+public interface Checkbox {
+    void render();
 }

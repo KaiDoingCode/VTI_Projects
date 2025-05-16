@@ -1,4 +1,10 @@
 package mac.domain;
 
-public class MacScrollbar {
+import gui.domain.Scrollbar;
+
+public class MacScrollbar implements Scrollbar {
+    @Override
+    public void scroll() {
+        System.out.println("Scrolling with Mac Scrollbar");
+    }
 }

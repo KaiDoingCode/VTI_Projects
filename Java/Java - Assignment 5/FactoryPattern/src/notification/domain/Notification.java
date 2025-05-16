@@ -1,4 +1,5 @@
 package notification.domain;
 
-public class Notification {
+public interface Notification {
+    void send();
 }

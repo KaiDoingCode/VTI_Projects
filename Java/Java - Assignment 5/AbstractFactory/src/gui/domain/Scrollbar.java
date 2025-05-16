@@ -1,4 +1,5 @@
 package gui.domain;
 
-public class Scrollbar {
+public interface Scrollbar {
+    void scroll();
 }

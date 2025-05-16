@@ -1,4 +1,5 @@
 package gui.domain;
 
-public class Menu {
+public interface Menu {
+    void open();
 }

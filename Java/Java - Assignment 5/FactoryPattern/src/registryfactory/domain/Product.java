@@ -1,4 +1,5 @@
 package registryfactory.domain;
 
-public class Product {
+public interface Product {
+    void produce();
 }

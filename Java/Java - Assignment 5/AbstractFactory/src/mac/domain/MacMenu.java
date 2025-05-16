@@ -1,4 +1,10 @@
 package mac.domain;
 
-public class MacMenu {
+import gui.domain.Menu;
+
+public class MacMenu implements Menu {
+    @Override
+    public void open() {
+        System.out.println("Opening Mac Menu");
+    }
 }
