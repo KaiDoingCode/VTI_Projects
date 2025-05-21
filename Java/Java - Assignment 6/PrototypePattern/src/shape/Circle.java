@@ -1,3 +1,5 @@
+package shape;
+
 public class Circle extends Shape {
     private int radius;
 
@@ -8,6 +10,6 @@ public class Circle extends Shape {
 
     @Override
     public void draw() {
-        System.out.println("Circle with radius " + radius + " and color " + color);
+        System.out.println("shape.Circle with radius " + radius + " and color " + color);
     }
 }

@@ -1,4 +1,7 @@
-public abstract class Shape {
+package shape;
+import java.lang.Cloneable;
+
+public abstract class Shape implements Cloneable {
     protected String color;
 
     public Shape(String color) {

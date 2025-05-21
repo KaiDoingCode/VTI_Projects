@@ -1,7 +1,8 @@
-package shape;
+package document;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.lang.Cloneable;
 
 public class Section implements Cloneable {
     private String title;
@@ -24,7 +25,7 @@ public class Section implements Cloneable {
     }
 
     public void print() {
-        System.out.println("  shape.Section: " + title);
+        System.out.println("  document.Section: " + title);
         System.out.println("  Text: " + text);
         for (Image img : images) {
             img.print();

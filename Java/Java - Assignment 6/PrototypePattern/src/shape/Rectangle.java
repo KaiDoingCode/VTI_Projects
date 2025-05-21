@@ -1,3 +1,5 @@
+package shape;
+
 public class Rectangle extends Shape {
     private int width;
     private int height;
@@ -10,6 +12,6 @@ public class Rectangle extends Shape {
 
     @Override
     public void draw() {
-        System.out.println("Rectangle with width " + width + ", height " + height + " and color " + color);
+        System.out.println("shape.Rectangle with width " + width + ", height " + height + " and color " + color);
     }
 }

@@ -1,4 +1,5 @@
-package shape;
+package document;
+import java.lang.Cloneable;
 
 public class Image implements Cloneable {
     private String url;
@@ -13,6 +14,6 @@ public class Image implements Cloneable {
     }
 
     public void print() {
-        System.out.println("    shape.Image: " + url);
+        System.out.println("    document.Image: " + url);
     }
 }
